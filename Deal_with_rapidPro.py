@@ -10,6 +10,7 @@ def update_contacts():
     token = raw_input('Enter your token: ')
     
     #Let's store the .json data in "data" valiable
+    #In this example, the .json file is "/home/mbanje/Documents/Test/contacts-xls.json"
     with open('/home/mbanje/Documents/Test/contacts-xls.json') as data_file:
         data = json.load(data_file)
 
@@ -21,5 +22,6 @@ def update_contacts():
         print "We finish to deal with the row "+str(number_of_the_row)
         print("")
 
+#To run the above function, type: python Deal_with_rapidPro.py update_contacts
 update_contacts = update_contacts()
 
