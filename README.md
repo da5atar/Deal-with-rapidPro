@@ -4,6 +4,7 @@ In "Deal_with_rapidPro.py" file, you find some functions that can be used in an 
 
 
 Example of the content of a .json file for updating contacts:
+
 [
 	{
         "phone" : "+25779278861", 
